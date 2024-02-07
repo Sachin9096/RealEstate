@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <titel></titel>
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- custom css file link-->
+    <link rel="stylesheet" href="css/style.css">
+     
+</head>
+
+<body>
+    <!--header section starts-->
+
+
+    <header>
+        <a href="#" class="logo"><span>Real</span>Estate</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#Services">Services</a>
+            <a href="#Featured">Featured</a>
+            <a href="#Agents">Agents</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+        <div class="icons">
+            <div id="menu-bars" class="fas fa-bars"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+
+    </header>
+
+
+  <!--header section ends-->
+
+  <!--Home section starts-->
+
+<section class ="Home" id="Home">
+
+    <form action="">
+
+        <h3>Find Your Perfect Home</h3>
+
+        <div class="buttons-container">
+            <a href="#" class="btn">For Rent</a>
+            <a href="#" class="btn">For Sell</a>
+        </div>
+
+        <div class="inputBox">
+            <input type="search" name="" placeholder="Your Choice" id="">
+            <input type="search" name="" placeholder="city" id="">
+            <select name="" id="">
+                <option value="" disabled hidden selected>minimum price</option>
+                <option value="$5000">$5000</option>
+                <option value="$10000">$10000</option>
+                <option value="$15000">$15000</option>
+                <option value="$20000">$20000</option>
+                <option value="$25000">$25000</option>
+            </select>
+            <select name="" id="">
+                <option value="" disabled hidden selected>maximum price</option>
+                <option value="$30000">$30000</option>
+                <option value="$35000">$35000</option>
+                <option value="$40000">$40000</option>
+                <option value="$45000">$45000</option>
+                <option value="$50000">$50000</option>
+            </select>
+            <select name="" id="">
+                <option value="" disabled hidden selected>property status</option>
+                <option value="Ready to move">Ready to move</option>
+                <option value="under construction">under construction</option>
+                <option value="furnished">furnished</option>
+                <option value="semi-furnished">semi-furnished</option>
+                <option value="unfurnished">unfurnished</option>
+            </select>
+            <select name="" id="">
+                <option value="" disabled hidden selected>property type</option>
+                <option value="flat">flat</option>
+                <option value="house">house</option>
+                <option value="shop">shop</option>
+                <option value="warehouse">warehouse</option>
+                <option value="land">land</option>
+            </select>
+            <select name="" id="">
+                <option value="" disabled hidden selected>BHK</option>
+                <option value="1BHK">1BHK</option>
+                <option value="2BHK">2BHK</option>
+                <option value="3BHK">3BHK</option>
+                <option value="4BHK">4BHK</option>
+                <option value="5BHK">5BHK</option>
+            </select>
+            <select name="" id="">
+                <option value="" disabled hidden selected>aminities</option>
+                <option value="parking space">parking space</option>
+                <option value="swimming pool">swimming pool</option>
+                <option value="playground">playground</option>
+                <option value="security">security</option>
+                <option value="all">all</option>
+            </select>
+            <select name="" id="">
+                <option value="" disabled hidden selected>bedrooms</option>
+                <option value="1 bedroom">1 bedroom</option>
+                <option value="2 bedroom">2 bedroom</option>
+                <option value="3 bedroom">3 bedroom</option>
+                <option value="4 bedroom">4 bedroom</option>
+                <option value="5 bedroom">5 bedroom</option>
+            </select>
+            <select name="" id="">
+                <option value="" disabled hidden selected>bathrooms</option>
+                <option value="1 bathroom">1 bathroom</option>
+                <option value="2 bathroom">2 bathroom</option>
+                <option value="3 bathroom">3 bathroom</option>
+                <option value="4 bathroom">4 bathroom</option>
+                <option value="5 bathroom">5 bathroom</option>
+            </select>
+        </div>
+
+        <input type="submit" value="Search property" class="btn">
+
+    </form>
+
+</section>
+
+<!--Home section ends-->
+
+<!--services section starts-->
+
+<section class="Services" id="Services">
+
+    <h1 class="heading">Our<span>Services</span></h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHsAAAB7CAMAAABjGQ9NAAAAw1BMVEX///8upuVERET///0jo+QxpOVdsug7OztQT07k7PAuLi4AnOJQquU/Pz+x2Paurq7p6enJ4PXExMSq0vCurKg1NTUkJCQAk9/5+fnx8fFVVVXy/f7d3d3Q0NDd7fl2dnaioqKFwu3w9/yAu+mPxunl8/q72fJtuelnZ2ccHBwTExMAAAChoZu/vrjX7/+Njo4Ajt90rOeLuOhGPztHOTNFS1JOYm9IMCFAZX1Ce6E4kLY0nNQqtfu6rqYrIyAupdwAht0ShPVpAAADSUlEQVRoge2Ya3uaMBSACUmAGbAiU6BWFOXiblZb261dt/b//6olARUtdrMg7sN5H0GNyMtJTi6gKAAAAAAAAAAAAAAAAADwn4CxEpzPHbr2ueRThlhyDjH2TIYQYhEWKFjUg/zUgDo2CUFCHnJxbOc04MZKjAjicq5nU6wkLmEC2oQ7oDJoCUtxwrKP5snNimIzVMAN7GbcIq1sF8nqXgfuNOMWDersRI0QiU7r9rf2aE+NSHrK9vZG1lB6xWC2r0bEPKV71rP0TI6nr9Rc6dTt9roST1Eue6qqfhJyrJWoCYvqdnf6gs++b+mq4MsFHpjktVoMrBt3TYNLxxJGq2PId1Xtf41JqbrQ4eoa1nL3UM/V3+YH1IUKSAf1BJ67u3351uvO2d/UiDJtUos8c6sXLaHWh3ZJlpVEbsY1qHO3cd0T6qv2P6l529NAqR555r4cWaql+q8Gs8NyFlR3+1nchtozcOoyRjisoJDfGSlkQV60qLyQ8mZ5gusjZe60Mxy6Vmttx3FMvm2KkCmKJJOKUcvBTDK++LjG37hDfgxeihl1ezmbP1erdN/Q12q111qjfii4sTJYisVhwZ05K64Yr1pbdQFj362UuasxbGWurIdbRok7DTga3+Ka3TlyWBG5plyN+QX1C25k3nCo2JGm3TLXlKXYnTTumecPx57Xbe258YFcq9FtGdfXoxnf9HL3Geoce563xB7GzecaYa7LiCt2J3X7neHY7+y0dwmncPMZVOcv3VLP4N5gNe++5axWK/Xu7t5u0n27+r66+/Hw+BM9o6enp7dWEPW4cT4X/fp9//D4zJWb07+hlnMorjp/ytsuzBcMGnoqnPqQctPHTHtSeQIVs6MdUrI+K8keaHAIpcgUIEq3hRs5oWlSYZkqHxUFUyqepXAnYZSaaRg6tpgygzierIljWWK3o2iqmZRmF8GP15L3rpi4OjGZXPKZ0yixg8nbDSiah7+8iW07oUbF2pGhKH5XzfM7e3fB0sjOFrp51uVP0ErMhd/FsYN5O6SLhZseGbv4e/RCw2Rw/CXvEjjaC785Oirlk6UTH4jwKGQvuWkfc0PsBVnrVVXnHW3i1TnOAQAAAAAAAAAAAAAAAMAOfwDDikJR5kwDdQAAAABJRU5ErkJggg==" alt="" style=>
+            <h3>Buying Home</h3>
+            <p>I still think Buying a home is the best investment any individual can make.</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+
+        <div class="box">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHwAAAB8CAMAAACcwCSMAAAAY1BMVEX///8AAACMjIzo6Og5OTnr6+txcXG0tLTz8/P5+fnExMSqqqr8/Pyurq7AwMAUFBTh4eHQ0NAvLy9QUFCUlJQZGRlDQ0OEhIRbW1tpaWkdHR0pKSl4eHgiIiLY2NgKCgqdnZ19w+fNAAACw0lEQVRoge2Ya5eiMAxAy0spIAIqiDjA//+V06TlMcVRV1rds5v7YQ6DI9dJkzSVMYIgCIIgCIIgiH8T1/2cO3ac+FPu1BGkn3Hne5Dv80+4M99B/Oz97rBwFEX4dncN3qaBn/XczoHEqju54npHEa77dZSFxwNQW03DCgO+ZWyLF9Vwv1ZL0UX23Ds0HOHyiJc7ed+7DIlQ3Xu7Abd6fjWzZ6dBvrHlzlGxEWmWiMUON/DbKX+PvMUULyHFY+iuYYmJ375DnqGrhNaievt0J9vblfMDPPsLohyJ9LpAWudfcO/AVRCsyTmusAPKVvZ2CHckhZy1hU055nYHuZ2p/xIXYNep/M87e/Ien9yzIfwq3LMXdtbkU4GHQy9zVG8fyz22JE+xgdV8dM3aGcdPc0lZ4lqRZ7ieh4ANTXUEGm2A69CJDNhYkMvpofDYuLATkIEBZrqYLWBJDMvD81TgJ11+msr9HMLHMCvn6HbA3epqAMo9x6szZ15RG3VPm1dW3pLLcpf5x1nem5S7WmItmSWi4aOELF43mTeXhV2UoKwzs0eJFIvsLNxJ9ZtbhBtex9ToDM5wcno4QyNzf3fLcMuiOBk7SmTNmFHxPfd8d28MHSVkhuHWmd53y5Ob3Gox/1YTohuHhmVz0cFmE+EWcDBwkOF4PIARnXnNI7cIN3RfOcxf+Wr5VODezeaiU4LdULnLIQGKSKbxY6AoVEH269xyOMNpYfOcW25oatZYdWiSbmxdd5qLTjU1whX2FndwLPD+ebcMtyx3v33V7aH7uQL/yVTuvveam18L3/dLrNz9I91P9vimUry9eLHgEg+ARtX6f+ZW4Q7wAWu/pbi7m9zG3JZOcpKT/P+TN/FWI9aHHHtyfzEcBnoDtihfbFUeyUlOcpKTnOQkJznJ/zI5DzSWf6L/xfrv4AiCIAiCIAiCIL4BZvQlBE5N0WwAAAAASUVORK5CYII=" alt="">
+            <h3>Renting Home</h3>
+            <p>If you have a vacant house or want a house on rent then why wait, register and rent it out</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+
+        <div class="box">
+            <img src="data:image/png;base64,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" alt="">
+            <h3>Selling Home</h3>
+            <p>Do you want to sell a house, want a good price, then why are you waiting, come, it will be done</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+    </div>
+
+</section>
+
+<!--services section ends-->
+
+<!--featured section starts-->
+
+<section class="Featured" id="Featured">
+    <h1 class="heading"><span>Featured</span>Properties</h1>
+    <div class="box-container">
+        <!-- Box 1 -->
+        <div class="box">
+            <!-- Image and Info -->
+            <div class="image-container">
+                <!-- Image -->
+                <img src="images/img-1.jpg" alt="">
+                <!-- Info -->
+                <div class="info">
+                    <h3>3 Days ago</h3>
+                    <h3>For Rent</h3>
+                </div>
+                <!-- Icons -->
+                <div class="icons">
+                    <a href="#" class="fas fa-film"><h3>2</h3></a>
+                    <a href="#" class="fas fa-camera"><h3>6</h3></a>
+                </div>
+            </div>
+            <!-- Content -->
+            <div class="content">
+                <!-- Price -->
+                <div class="price">
+                    <h3>$25,000/mo</h3>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-envelope"></a>
+                    <a href="#" class="fas fa-phone"></a>
+                </div>
+                <!-- Location -->
+                <div class="location">
+                    <h3>modern apartments</h3>
+                    <p>Hinjawadi, pune, india - 411057</p>
+                </div>
+                <!-- Details -->
+                <div class="details">
+                    <h3><i class="fas fa-expand"></i>3500 sqft</h3>
+                    <h3><i class="fas fa-bed"></i>3 Beds</h3>
+                    <h3><i class="fas fa-bath"></i>2 Baths</h3>
+                </div>
+                <!-- Buttons -->
+                <div class="buttons">
+                    <a href="#" class="btn">request info</a>
+                    <a href="#" class="btn">view details</a>
+                </div>
+            </div>
+        </div>
+        <!-- Repeat similar structure for other boxes -->
+
+        <!-- Box 1 -->
+        <div class="box">
+            <!-- Image and Info -->
+            <div class="image-container">
+                <!-- Image -->
+                <img src="images/img-2.jpg" alt="">
+                <!-- Info -->
+                <div class="info">
+                    <h3>1 Days ago</h3>
+                    <h3>For Sell</h3>
+                </div>
+                <!-- Icons -->
+                <div class="icons">
+                    <a href="#" class="fas fa-film"><h3>3</h3></a>
+                    <a href="#" class="fas fa-camera"><h3>7</h3></a>
+                </div>
+            </div>
+            <!-- Content -->
+            <div class="content">
+                <!-- Price -->
+                <div class="price">
+                    <h3>$30,000/mo</h3>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-envelope"></a>
+                    <a href="#" class="fas fa-phone"></a>
+                </div>
+                <!-- Location -->
+                <div class="location">
+                    <h3>modern apartments</h3>
+                    <p>Kharadi, pune, india - 411014</p>
+                </div>
+                <!-- Details -->
+                <div class="details">
+                    <h3><i class="fas fa-expand"></i>2500 sqft</h3>
+                    <h3><i class="fas fa-bed"></i>3 Beds</h3>
+                    <h3><i class="fas fa-bath"></i>2 Baths</h3>
+                </div>
+                <!-- Buttons -->
+                <div class="buttons">
+                    <a href="#" class="btn">request info</a>
+                    <a href="#" class="btn">view details</a>
+                </div>
+            </div>
+        </div>
+        <!-- Repeat similar structure for other boxes -->
+
+        <!-- Box 1 -->
+        <div class="box">
+            <!-- Image and Info -->
+            <div class="image-container">
+                <!-- Image -->
+                <img src="images/img-3.jpg" alt="">
+                <!-- Info -->
+                <div class="info">
+                    <h3>4 Days ago</h3>
+                    <h3>For Rent</h3>
+                </div>
+                <!-- Icons -->
+                <div class="icons">
+                    <a href="#" class="fas fa-film"><h3>2</h3></a>
+                    <a href="#" class="fas fa-camera"><h3>5</h3></a>
+                </div>
+            </div>
+            <!-- Content -->
+            <div class="content">
+                <!-- Price -->
+                <div class="price">
+                    <h3>$35,000/mo</h3>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-envelope"></a>
+                    <a href="#" class="fas fa-phone"></a>
+                </div>
+                <!-- Location -->
+                <div class="location">
+                    <h3>modern apartments</h3>
+                    <p>Koregaon park, pune, india - 411014</p>
+                </div>
+                <!-- Details -->
+                <div class="details">
+                    <h3><i class="fas fa-expand"></i>3500 sqft</h3>
+                    <h3><i class="fas fa-bed"></i>3 Beds</h3>
+                    <h3><i class="fas fa-bath"></i>2 Baths</h3>
+                </div>
+                <!-- Buttons -->
+                <div class="buttons">
+                    <a href="#" class="btn">request info</a>
+                    <a href="#" class="btn">view details</a>
+                </div>
+            </div>
+        </div>
+        <!-- Repeat similar structure for other boxes -->
+
+
+        <!-- Box 1 -->
+        <div class="box">
+            <!-- Image and Info -->
+            <div class="image-container">
+                <!-- Image -->
+                <img src="images/img-4.jpg" alt="">
+                <!-- Info -->
+                <div class="info">
+                    <h3>1 Days ago</h3>
+                    <h3>For Rent</h3>
+                </div>
+                <!-- Icons -->
+                <div class="icons">
+                    <a href="#" class="fas fa-film"><h3>2</h3></a>
+                    <a href="#" class="fas fa-camera"><h3>8</h3></a>
+                </div>
+            </div>
+            <!-- Content -->
+            <div class="content">
+                <!-- Price -->
+                <div class="price">
+                    <h3>$25,000/mo</h3>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-envelope"></a>
+                    <a href="#" class="fas fa-phone"></a>
+                </div>
+                <!-- Location -->
+                <div class="location">
+                    <h3>modern apartments</h3>
+                    <p>Baner, pune, india - 411045</p>
+                </div>
+                <!-- Details -->
+                <div class="details">
+                    <h3><i class="fas fa-expand"></i>3500 sqft</h3>
+                    <h3><i class="fas fa-bed"></i>3 Beds</h3>
+                    <h3><i class="fas fa-bath"></i>2 Baths</h3>
+                </div>
+                <!-- Buttons -->
+                <div class="buttons">
+                    <a href="#" class="btn">request info</a>
+                    <a href="#" class="btn">view details</a>
+                </div>
+            </div>
+        </div>
+        <!-- Repeat similar structure for other boxes -->
+
+
+        <!-- Box 1 -->
+        <div class="box">
+            <!-- Image and Info -->
+            <div class="image-container">
+                <!-- Image -->
+                <img src="images/img-5.jpg" alt="">
+                <!-- Info -->
+                <div class="info">
+                    <h3>5 Days ago</h3>
+                    <h3>For Rent</h3>
+                </div>
+                <!-- Icons -->
+                <div class="icons">
+                    <a href="#" class="fas fa-film"><h3>1</h3></a>
+                    <a href="#" class="fas fa-camera"><h3>6</h3></a>
+                </div>
+            </div>
+            <!-- Content -->
+            <div class="content">
+                <!-- Price -->
+                <div class="price">
+                    <h3>$30,000/mo</h3>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-envelope"></a>
+                    <a href="#" class="fas fa-phone"></a>
+                </div>
+                <!-- Location -->
+                <div class="location">
+                    <h3>modern apartments</h3>
+                    <p>Viman nagar, pune, india - 411014</p>
+                </div>
+                <!-- Details -->
+                <div class="details">
+                    <h3><i class="fas fa-expand"></i>3500 sqft</h3>
+                    <h3><i class="fas fa-bed"></i>3 Beds</h3>
+                    <h3><i class="fas fa-bath"></i>2 Baths</h3>
+                </div>
+                <!-- Buttons -->
+                <div class="buttons">
+                    <a href="#" class="btn">request info</a>
+                    <a href="#" class="btn">view details</a>
+                </div>
+            </div>
+        </div>
+        <!-- Repeat similar structure for other boxes -->
+
+
+        <!-- Box 1 -->
+        <div class="box">
+            <!-- Image and Info -->
+            <div class="image-container">
+                <!-- Image -->
+                <img src="images/img-6.jpg" alt="">
+                <!-- Info -->
+                <div class="info">
+                    <h3>3 Days ago</h3>
+                    <h3>For Sell</h3>
+                </div>
+                <!-- Icons -->
+                <div class="icons">
+                    <a href="#" class="fas fa-film"><h3>2</h3></a>
+                    <a href="#" class="fas fa-camera"><h3>6</h3></a>
+                </div>
+            </div>
+            <!-- Content -->
+            <div class="content">
+                <!-- Price -->
+                <div class="price">
+                    <h3>$25,000/mo</h3>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-envelope"></a>
+                    <a href="#" class="fas fa-phone"></a>
+                </div>
+                <!-- Location -->
+                <div class="location">
+                    <h3>modern apartments</h3>
+                    <p>Pimpri Chinchwad, pune, india - 410506</p>
+                </div>
+                <!-- Details -->
+                <div class="details">
+                    <h3><i class="fas fa-expand"></i>3500 sqft</h3>
+                    <h3><i class="fas fa-bed"></i>3 Beds</h3>
+                    <h3><i class="fas fa-bath"></i>2 Baths</h3>
+                </div>
+                <!-- Buttons -->
+                <div class="buttons">
+                    <a href="#" class="btn">request info</a>
+                    <a href="#" class="btn">view details</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--featured section ends-->
+
+<!-- Agents Section starts-->
+
+<section class="Agents" id="Agents">
+
+    <h1 class="heading">Professional<span>Agents</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-envelope"></a>
+            <a href="#" class="fas fa-phone"></a>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvFUdgtpdkz1qJxkCKkYjNiTeb5qqdioX7ZA&usqp=CAU" alt="">
+            <h3>Saurabh Kulkarni</h3>
+            <span>Agent</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-envelope"></a>
+            <a href="#" class="fas fa-phone"></a>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAgVBMVEX///8AAAD4+Pju7u7j4+Po6Oj8/PxYWFjR0dHr6+u7u7vx8fGoqKjV1dWenp5QUFCvr68pKSmCgoJsbGxmZmZKSkqQkJA5OTkPDw/c3NwuLi7Nzc3Hx8c7Ozu0tLQcHBxfX1+ioqIZGRl+fn5FRUWWlpaLi4sjIyN2dnYaGhoSEhInaMzlAAANm0lEQVR4nNVd53rbOgx15G15j3qvNE7avP8D3k91REASZZEHoOV7fqY1RUggxgFINhqB0Yni0WA4ni8n69l5s3l7e9tszrP1ZDkfDwejOOqEnkBI9Lenz+X67THWy/l01K57qv7o9KaLj02FcAwfi2mv7jl7YHSduMvGxRyP6p66A5qnBSRdisW0WbcIj9AadkXi3dG9tuoWxI54iummDathXLc4BRyWauLdcTnULRJH87arnPH7btXtXpbLxXJ56XY/du+Vv/i6vcqSHP15NM/ZZT4ebFvtZpT5UdRst7aD8fwye/TjP69gXHvlq289H+4rY5ZONBrOy8OCVd1u8nAs0bDJeO810P7aPduHOta5IPcr65wmnz0k2uyMbnZ9WNUl48g6n8upLxizf7La5Ekd67Fvi10m06j6lxWITrY3t3i2g+zcipPY3SRfj6M/tpie8VPzrEPRxi/2qjPYF1Vk9rzlGBWfPtfP8PqfxbcoXwNOGOQffA6lQNev/KNOYR6UQfOSV55huAXSGeaXwyV4JHfIxZOba1jNia65B34Pgj6vMc+90lt4A1cw2/OAD2vldGbxnOC/mbNsu2AZcs7EfDwvKO59ZB8dSFN/ZZ8yDvOUEoyzD/8M8IgoG0tNnk1xtnPPVzdw7axrmmqP74BpZgZn5Vfcy7C7H/WQYa1MsrbxS0ArkLUxIRaBG7KmQNHeXDMD18krZHXpqjVsxuVOtFIkDM2MwVGy55kY/7fOmAJkwqpfGiP+rtuG5pGxqQohXEZAVfMFY7/RFJGr6FcgJxE1W9tRb+Du4FrcOQsVlRuZtTYZ1OwdpvPl6jj7ToZfefwy5jyOyNxc2UArvUSp0x6MF7lSx85r+A53/gKnwR19V0fAuHWa5xKFO7Z+43R4pRJ2/T02yAUdhCHq3bplJSd/VeNsChiEtJnJumBDMLSGqwedC0dgRCbiBgrDI2awusgADK1fJWUXUEfvYIr6hSRTLDySGZnm0LrwOC7QwNzcTPx/zsL4tUTA1m+HthpwHXWY0/B2i8yMfgn8YNupvA+/wpitJE+D2mLPxyOZOE8+lgAP57fwPBltiMeig283Ad+G8CMaexpl5/M79u7xbOJhA0MGkmSdZRoeQfgB+lUWcVVTIoMosmTJj3P5rUnaBRjhnzEedpHk4BN0F0Fu7duVg6dgYQPT9tUtRByChdho9MkdLd1+wRwFTDq5r8E7buiDErD42WlFR/T/4eSyUEStxGYsqPKw6MQleqNCzwf6xMhnERr8xllsCgsX1f+Z2VHY1f+yzN8FsE1lAUqlPe3Q64c9YcsyeTfAaTZ5xUqugIgZ2FE0KlOJchzRGJhcRoXR6tPD4FUxxAXEE7U2DfGYlCczA6+JpkRAJ1NhxdhthJH5b7AdbUib2dGWGVobj9r8SJthXz+1zdoL4FKkLOMB50KeAtUVqY4m+AM+mlZYuccg3gMOMDR2JEC0FH+5pZE8fUI4TBzbZuwLlNkjT1f2EU3P9gZ1vFvrjL0B0gqRSTJK6FcK0eFCgF/OVAqEH05wNSPYDaVZQjO0V8U3ZyoF2CtLJLZV0ckXovnowTpbBOhHpHDKZq3MBziDq7DpsaOyCqDb75jigYWgJFuLxmv51loJvsC3TLa86O/I1IICXhUFhP1V58EAJi8EO57wpNAOsG3H9B3M8v9CVgLMmjzoUSdcsGlQFpV3qqaCAkakjhUKD4DGxkSnOWYxLhXdDXvrJEUAuVqaSdarm5wHLHRp7HDOAzM2HRNXZXmmlWxYhZypiDU0FXIKGaKJDCFmwk4hJARtHlFNnA29WuV2h2UnmwJAW2Piax59mmUEcqSa4QwB9PrGprDwm5YRmFWU7AYWAix+U+GFrLGR+oKN2VCMuRlQTtpoFKn5ovgnPwQREDWmZPcoejFjoj3cYSQ8g7Mha5r+xeS+cKkijITf6HSMNU25YZNUwRXRMBK+o9Mx1b2UcDIBDbzrvfoYDwSolhKn9qOUJmtEE+tQ3sKrBYgjMmRGTmK8xzJE4K1SHbprpfGGeL/0b/sUhbjA87mmQ9xjNOMN8Q62MHEp3tBnksS7RzSFN3hAhZKaDYImm3SIf4pu/CMaQgDdM66Az4lI0+BNEsOYagrapKfNsnGgQZahjRLu22gYSuYXz6/QA8pOG6GmXFy0sK3NI3KgcaQJRBPFNDwimBt27HNTAhiEmBxxwfrdZ+BgIZch3LZgWrvWTFrH3swCeiVz0wHaW2ey4Ii4YNSU6lUNbQC7FijKimlNomYrrIRounOjAYy7RhvmX1NLDZMxoMIwqg9hLQ3aUmDimCEl+OjbiuxTUwKaspr3PiaHj3ZbBvWHMFVj6ohz4/D/wvu3XjGmaTRTYmVpeKkdfOCL7Gjkx4BTxCjNLibmC+D7VtC+dRfg+4XSrPdoOhRwkiakQ8TPvEypmlkjpaVwCftl01MAvs0klfBsiioXeKxOGC4xAb5fwASmGyMhGng3QjFtCQSnGaU+YmM4G4GE4Rai4Dgjk/YaCeHO7kB9Cgm+BUeWGR+m8Q0DFbnxnvYE9A0V1mEwOlFy4A+tQ7ktbYSqrgkoam5L5f6wEYpQFG2AJn8oj2kamX1VihCdaUQxjTwuTRAi+pYdnJaWfY8mtxAd7xEk0Rcd/WhI0omxOZLzPRoh+ktlZ3iZM0EWNDXZaYGdwsHUQvidjFWASQfmcp7mByP7RGGgxNgPGE8j5tpS6Lp96QnzjGsT86UGPfttFwjktz0wsYx2iQ5uuEPL8StMhXHe4roFg1arsMLhssaAxkToXuTDanlFhQMaWe1JXD9kUCKH/yrMJHVeSfuFtAbModMbJUjGU/AaMGmswm01OtSpwunAxn4mTI+4F4NBZ+uM1DM32FbLpBdD3E/DoEKd4hUUQqafxswKbnZk0NiOf1GYR5r1/uuJ0uhrM9DYj69x3nQ61r2B02SvCoeta8TfCssw15uo0F9KkCdRGovlmg521weFHmGCPDRVCErzPcJGaf8q+Hy5miocGh6ZzvqfPxgDqHHrQcVxupWAu1wZ8r36ZAA1FOQqlFDDkhb2W8j3zDDE9ok7Q+P+mOIGEjO8xt0Vsmqixv0nxE+bPxmPqKEisjNqNO7HMUEpJSkmN78ojC/iv1VuHDO+gjYbiveQZiAJvzWuX4hso0n3AWeBB6cKCRxT0q7tj/hWIw60OUPDlrNMgr8vopBUriEBGamNyjVEJbIIz1TIA+vO0LlIyrj7rEaY/EJYEEmBUPw6V8WWnYsRKz8HsDYqVoarT84vGE7xovMg7w4UBQox+9x8cwmJrnTlkWdpHz85PAuyM4VWFXNOlNa9Y37H02ndx2ei4sI5UWwbqNKtR37cqdLl6RTPFGllitxUbmvz7OGHO9ZzINLdovWkVUpXfPpk+xr0U4O/VVtLHDEsSrcK+tBuShKSj7JqvaFr3nUuWHO9oSQBfHxCBrFhoOwRLm1gUgnd/DJhFR9F1rIkAKSUQOMjXr0k1EjbKDArOx2UvL5Gqu2XQmkkTsQQlYae1C4iVxrf2FseD1M4U/666COKCf7It4Ah6xxMQCX2B73FVP6TNnz4HyksXRmkNI8+D/lEYWcG0lkje6nsYo6HESC9elEojOX4optqqf3zcYc/4+QFhUp0a7Ag/Gbet8LVUdyDF4HwPTQ4U0PbPKtiTqI54MhGclgNuhYpp6gmmtgHwJRG1g+NpW5sWTj4VSo7IBtn+9Im0wkQMTLFc9lIxDJX/31HCv2XG39NZc7X6aOweMvzpMimzhavpScrxV6r49thd4f6uIyOyvUd/+DFnTJH4bo9jd1/uHZfiifNfflHd1WN6Lnvzh+f2dOL2y/isbQHI4/zzdHksJXhkZ8wi+8SvY3CHDqwcHFXrEXJK3Zn16lUWZt4qrcLIY/VtGqVMCvjx2bxCuDDgLg9D3OyZ4rz58OiIqedPbN2nqKXG9SR05XNQizLlZWzXd5ulLVsl1RNOoNw6pnFx8AebPJ7X4Bwj7X77ixmLb4qXX3khN3VNgU2A4TJ4kzLMb/g2+HOUSjBZp5fkBFj876gSkSb6UA2CN8+Y/kVscwYBObp377BViqeqrPgZh/mTF0XdMmucwHxzJkb1PXPQhgIbhlVwOrHZGau/RZwWPxK0V2yDk7am2H9MUvk6XMzJ+pPz6QL26lPOSkc3qdbflWBsBgY8hAoHYhL1vrb0HWhUER6bRFVOkfCHNatA6WuCj12QhtKHQfa1+LpQakVLkG4M8klUNjyTei9hifk+NZpRzVo1x/MZPGlsW8hg6i+eNuGiVLjVgavFN4oeYk8XsfeqNoYjtYziYty7JSafK14hRBOZedQOQ5h6dFqfAfT0BRxPRxNCt/KG4Q6DQ569Z0nIrU71D2xCOEE7TjUYVR3Sptd3NB5ftI4VtpD4Ix+yIPKi/ij05nth9HzItWu0nYMb+w1DmupxuqpCzAvY7izvFMc65QvQWBdXYlaMpWwDVdp+1PX+sujOQ7hH2e3Z0RozjhoO4/lK6hnFtFUz7JWd5nUhNZQw+x0ryEzXDHik0xdF9M6ghdfjK7Yp1yNX8V0umA0XXx43Lj+sZj+n6RL0d+ePpdVPZnrxXy6VWd3n4ooHg2G4/lycpydN8ln3WzOs+NkMR8PB6M4vM38D56/vAgWVVamAAAAAElFTkSuQmCC" alt="">
+            <h3>Gaurav Gaikwad</h3>
+            <span>Agent</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-envelope"></a>
+            <a href="#" class="fas fa-phone"></a>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvFUdgtpdkz1qJxkCKkYjNiTeb5qqdioX7ZA&usqp=CAU" alt="">
+            <h3>Ankush Gotarkar</h3>
+            <span>Agent</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-envelope"></a>
+            <a href="#" class="fas fa-phone"></a>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAgVBMVEX///8AAAD4+Pju7u7j4+Po6Oj8/PxYWFjR0dHr6+u7u7vx8fGoqKjV1dWenp5QUFCvr68pKSmCgoJsbGxmZmZKSkqQkJA5OTkPDw/c3NwuLi7Nzc3Hx8c7Ozu0tLQcHBxfX1+ioqIZGRl+fn5FRUWWlpaLi4sjIyN2dnYaGhoSEhInaMzlAAANm0lEQVR4nNVd53rbOgx15G15j3qvNE7avP8D3k91REASZZEHoOV7fqY1RUggxgFINhqB0Yni0WA4ni8n69l5s3l7e9tszrP1ZDkfDwejOOqEnkBI9Lenz+X67THWy/l01K57qv7o9KaLj02FcAwfi2mv7jl7YHSduMvGxRyP6p66A5qnBSRdisW0WbcIj9AadkXi3dG9tuoWxI54iummDathXLc4BRyWauLdcTnULRJH87arnPH7btXtXpbLxXJ56XY/du+Vv/i6vcqSHP15NM/ZZT4ebFvtZpT5UdRst7aD8fwye/TjP69gXHvlq289H+4rY5ZONBrOy8OCVd1u8nAs0bDJeO810P7aPduHOta5IPcr65wmnz0k2uyMbnZ9WNUl48g6n8upLxizf7La5Ekd67Fvi10m06j6lxWITrY3t3i2g+zcipPY3SRfj6M/tpie8VPzrEPRxi/2qjPYF1Vk9rzlGBWfPtfP8PqfxbcoXwNOGOQffA6lQNev/KNOYR6UQfOSV55huAXSGeaXwyV4JHfIxZOba1jNia65B34Pgj6vMc+90lt4A1cw2/OAD2vldGbxnOC/mbNsu2AZcs7EfDwvKO59ZB8dSFN/ZZ8yDvOUEoyzD/8M8IgoG0tNnk1xtnPPVzdw7axrmmqP74BpZgZn5Vfcy7C7H/WQYa1MsrbxS0ArkLUxIRaBG7KmQNHeXDMD18krZHXpqjVsxuVOtFIkDM2MwVGy55kY/7fOmAJkwqpfGiP+rtuG5pGxqQohXEZAVfMFY7/RFJGr6FcgJxE1W9tRb+Du4FrcOQsVlRuZtTYZ1OwdpvPl6jj7ToZfefwy5jyOyNxc2UArvUSp0x6MF7lSx85r+A53/gKnwR19V0fAuHWa5xKFO7Z+43R4pRJ2/T02yAUdhCHq3bplJSd/VeNsChiEtJnJumBDMLSGqwedC0dgRCbiBgrDI2awusgADK1fJWUXUEfvYIr6hSRTLDySGZnm0LrwOC7QwNzcTPx/zsL4tUTA1m+HthpwHXWY0/B2i8yMfgn8YNupvA+/wpitJE+D2mLPxyOZOE8+lgAP57fwPBltiMeig283Ad+G8CMaexpl5/M79u7xbOJhA0MGkmSdZRoeQfgB+lUWcVVTIoMosmTJj3P5rUnaBRjhnzEedpHk4BN0F0Fu7duVg6dgYQPT9tUtRByChdho9MkdLd1+wRwFTDq5r8E7buiDErD42WlFR/T/4eSyUEStxGYsqPKw6MQleqNCzwf6xMhnERr8xllsCgsX1f+Z2VHY1f+yzN8FsE1lAUqlPe3Q64c9YcsyeTfAaTZ5xUqugIgZ2FE0KlOJchzRGJhcRoXR6tPD4FUxxAXEE7U2DfGYlCczA6+JpkRAJ1NhxdhthJH5b7AdbUib2dGWGVobj9r8SJthXz+1zdoL4FKkLOMB50KeAtUVqY4m+AM+mlZYuccg3gMOMDR2JEC0FH+5pZE8fUI4TBzbZuwLlNkjT1f2EU3P9gZ1vFvrjL0B0gqRSTJK6FcK0eFCgF/OVAqEH05wNSPYDaVZQjO0V8U3ZyoF2CtLJLZV0ckXovnowTpbBOhHpHDKZq3MBziDq7DpsaOyCqDb75jigYWgJFuLxmv51loJvsC3TLa86O/I1IICXhUFhP1V58EAJi8EO57wpNAOsG3H9B3M8v9CVgLMmjzoUSdcsGlQFpV3qqaCAkakjhUKD4DGxkSnOWYxLhXdDXvrJEUAuVqaSdarm5wHLHRp7HDOAzM2HRNXZXmmlWxYhZypiDU0FXIKGaKJDCFmwk4hJARtHlFNnA29WuV2h2UnmwJAW2Piax59mmUEcqSa4QwB9PrGprDwm5YRmFWU7AYWAix+U+GFrLGR+oKN2VCMuRlQTtpoFKn5ovgnPwQREDWmZPcoejFjoj3cYSQ8g7Mha5r+xeS+cKkijITf6HSMNU25YZNUwRXRMBK+o9Mx1b2UcDIBDbzrvfoYDwSolhKn9qOUJmtEE+tQ3sKrBYgjMmRGTmK8xzJE4K1SHbprpfGGeL/0b/sUhbjA87mmQ9xjNOMN8Q62MHEp3tBnksS7RzSFN3hAhZKaDYImm3SIf4pu/CMaQgDdM66Az4lI0+BNEsOYagrapKfNsnGgQZahjRLu22gYSuYXz6/QA8pOG6GmXFy0sK3NI3KgcaQJRBPFNDwimBt27HNTAhiEmBxxwfrdZ+BgIZch3LZgWrvWTFrH3swCeiVz0wHaW2ey4Ii4YNSU6lUNbQC7FijKimlNomYrrIRounOjAYy7RhvmX1NLDZMxoMIwqg9hLQ3aUmDimCEl+OjbiuxTUwKaspr3PiaHj3ZbBvWHMFVj6ohz4/D/wvu3XjGmaTRTYmVpeKkdfOCL7Gjkx4BTxCjNLibmC+D7VtC+dRfg+4XSrPdoOhRwkiakQ8TPvEypmlkjpaVwCftl01MAvs0klfBsiioXeKxOGC4xAb5fwASmGyMhGng3QjFtCQSnGaU+YmM4G4GE4Rai4Dgjk/YaCeHO7kB9Cgm+BUeWGR+m8Q0DFbnxnvYE9A0V1mEwOlFy4A+tQ7ktbYSqrgkoam5L5f6wEYpQFG2AJn8oj2kamX1VihCdaUQxjTwuTRAi+pYdnJaWfY8mtxAd7xEk0Rcd/WhI0omxOZLzPRoh+ktlZ3iZM0EWNDXZaYGdwsHUQvidjFWASQfmcp7mByP7RGGgxNgPGE8j5tpS6Lp96QnzjGsT86UGPfttFwjktz0wsYx2iQ5uuEPL8StMhXHe4roFg1arsMLhssaAxkToXuTDanlFhQMaWe1JXD9kUCKH/yrMJHVeSfuFtAbModMbJUjGU/AaMGmswm01OtSpwunAxn4mTI+4F4NBZ+uM1DM32FbLpBdD3E/DoEKd4hUUQqafxswKbnZk0NiOf1GYR5r1/uuJ0uhrM9DYj69x3nQ61r2B02SvCoeta8TfCssw15uo0F9KkCdRGovlmg521weFHmGCPDRVCErzPcJGaf8q+Hy5miocGh6ZzvqfPxgDqHHrQcVxupWAu1wZ8r36ZAA1FOQqlFDDkhb2W8j3zDDE9ok7Q+P+mOIGEjO8xt0Vsmqixv0nxE+bPxmPqKEisjNqNO7HMUEpJSkmN78ojC/iv1VuHDO+gjYbiveQZiAJvzWuX4hso0n3AWeBB6cKCRxT0q7tj/hWIw60OUPDlrNMgr8vopBUriEBGamNyjVEJbIIz1TIA+vO0LlIyrj7rEaY/EJYEEmBUPw6V8WWnYsRKz8HsDYqVoarT84vGE7xovMg7w4UBQox+9x8cwmJrnTlkWdpHz85PAuyM4VWFXNOlNa9Y37H02ndx2ei4sI5UWwbqNKtR37cqdLl6RTPFGllitxUbmvz7OGHO9ZzINLdovWkVUpXfPpk+xr0U4O/VVtLHDEsSrcK+tBuShKSj7JqvaFr3nUuWHO9oSQBfHxCBrFhoOwRLm1gUgnd/DJhFR9F1rIkAKSUQOMjXr0k1EjbKDArOx2UvL5Gqu2XQmkkTsQQlYae1C4iVxrf2FseD1M4U/666COKCf7It4Ah6xxMQCX2B73FVP6TNnz4HyksXRmkNI8+D/lEYWcG0lkje6nsYo6HESC9elEojOX4optqqf3zcYc/4+QFhUp0a7Ag/Gbet8LVUdyDF4HwPTQ4U0PbPKtiTqI54MhGclgNuhYpp6gmmtgHwJRG1g+NpW5sWTj4VSo7IBtn+9Im0wkQMTLFc9lIxDJX/31HCv2XG39NZc7X6aOweMvzpMimzhavpScrxV6r49thd4f6uIyOyvUd/+DFnTJH4bo9jd1/uHZfiifNfflHd1WN6Lnvzh+f2dOL2y/isbQHI4/zzdHksJXhkZ8wi+8SvY3CHDqwcHFXrEXJK3Zn16lUWZt4qrcLIY/VtGqVMCvjx2bxCuDDgLg9D3OyZ4rz58OiIqedPbN2nqKXG9SR05XNQizLlZWzXd5ulLVsl1RNOoNw6pnFx8AebPJ7X4Bwj7X77ixmLb4qXX3khN3VNgU2A4TJ4kzLMb/g2+HOUSjBZp5fkBFj876gSkSb6UA2CN8+Y/kVscwYBObp377BViqeqrPgZh/mTF0XdMmucwHxzJkb1PXPQhgIbhlVwOrHZGau/RZwWPxK0V2yDk7am2H9MUvk6XMzJ+pPz6QL26lPOSkc3qdbflWBsBgY8hAoHYhL1vrb0HWhUER6bRFVOkfCHNatA6WuCj12QhtKHQfa1+LpQakVLkG4M8klUNjyTei9hifk+NZpRzVo1x/MZPGlsW8hg6i+eNuGiVLjVgavFN4oeYk8XsfeqNoYjtYziYty7JSafK14hRBOZedQOQ5h6dFqfAfT0BRxPRxNCt/KG4Q6DQ569Z0nIrU71D2xCOEE7TjUYVR3Sptd3NB5ftI4VtpD4Ix+yIPKi/ij05nth9HzItWu0nYMb+w1DmupxuqpCzAvY7izvFMc65QvQWBdXYlaMpWwDVdp+1PX+sujOQ7hH2e3Z0RozjhoO4/lK6hnFtFUz7JWd5nUhNZQw+x0ryEzXDHik0xdF9M6ghdfjK7Yp1yNX8V0umA0XXx43Lj+sZj+n6RL0d+ePpdVPZnrxXy6VWd3n4ooHg2G4/lycpydN8ln3WzOs+NkMR8PB6M4vM38D56/vAgWVVamAAAAAElFTkSuQmCC" alt="">
+            <h3>Vaibhav Rothe</h3>
+            <span>Agent</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- Agents Section ends-->
+
+<!--Contact section starts-->
+
+<section class="Contact" id="Contact">
+
+<h1 class="heading"><span>Contact</span>Us</h1>
+
+<div class="icons-container">
+
+    
+    <div class="icons">
+        <img src="images/icon-1.png" alt="">
+        <h3>phone number</h3>
+        <p>+170-719-9943</p>
+        <p>+220-819-9944</p>
+    </div>
+
+    <div class="icons">
+        <img src="images/icon-2.png" alt="">
+        <h3>email address</h3>
+        <p>sachu@gmail.com</p>
+        <p>sachinshinde29091999@gmail.com</p>
+    </div>
+
+    <div class="icons">
+        <img src="images/icon-3.png" alt="">
+        <h3>office address</h3>
+        <p>Pune, india - 411001</p>
+    </div>
+
+</div>
+
+<div class="row">
+
+    <form action="">
+        <div class="inputBox">
+            <input type="text" placeholder="name">
+            <input type="tel" placeholder="number" maxlength="10">
+        </div>
+        <div class="inputBox">
+            <input type="email" placeholder="email">
+            <input type="text" placeholder="submit">
+        </div>
+        <textarea name="" placeholder="message" cols="30" rows="10"></textarea>
+        <input type="submit" value="send message" class="btn">
+    </form>
+
+    
+   
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46716.48318706987!2d73.6760188981689!3d18.599476122807108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bbc048041bef%3A0xd0c9eb5ac3c3dee5!2sHinjawadi%2C%20Pune%2C%20Pimpri-Chinchwad%2C%20Maharashtra!5e1!3m2!1sen!2sin!4v1707287020717!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>"
+</div>
+
+</section>
+
+<!--Contact section starts-->
+
+<!--footer section starts-->
+
+<section class="Footer">
+
+    <div class="footer-container">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>branch location</h3>
+                <a href="#">Pune</a>
+                <a href="#">Mumbai</a>
+                <a href="#">Nanded</a>
+                <a href="#">Buldhana</a>
+                <a href="#">Sambhaji Nagar</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">Home</a>
+                <a href="#">Services</a>
+                <a href="#">Features</a>
+                <a href="#">Agents</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#">my account</a>
+                <a href="#">my favorite</a>
+                <a href="#">my list</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">instagram</a>
+                <a href="#">linkedin</a>
+            </div>
+
+        </div>
+
+        <div class="credit">created by <span>Sachu</span>| All rights reserved!</div>
+
+    </div>
+
+</section>
+
+<!--footer section ends-->
+
+
+<!--javascript part-->
+  <script>
+     
+     let menu = document.querySelector('#menu-bars');
+     let navbar = document.querySelector('.navbar');
+
+     menu.onclick = () =>{
+        navbar.classList.toggle('active');
+        menu.classList.toggle('fa-times');
+     }
+
+     window.onscroll = () =>{
+        navbar.classList.remove('active');
+        menu.classList.remove('fa-times');
+
+     }
+
+  </script>
+
+
+
+</body>
+</html>
